@@ -6,7 +6,7 @@ const Form = () => {
   return (
     <>
     <div className='formContainer'>
-        <form action="/congratulation" className='form'>
+        <form action="/passManager" className='form'>
         <div className='sign-in-to-your-acco'>SIGN IN TO YOUR ACCOUNT</div>
         <input type="tel" name="" id="" required minLength={10} maxLength={10} placeholder='Mobile Number' />
         <input type="text" name="" id="" required minLength={4} placeholder='MPin' />
