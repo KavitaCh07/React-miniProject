@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 150px;
+    left: 125px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.7);
+}
+
+.modal-content {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+    line-height: 1.4;
+    background: #FFFFFF;
+    padding: 14px 28px;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.add-site {
+    height: 41px;
+    width: 119px;
+    color: #3C4857;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 41px;
+}
